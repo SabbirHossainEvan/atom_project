@@ -15,7 +15,7 @@
 </head>
 <body>
     <!-- navigation section start -->
-     <header class="md:container md-auto lg:container mx-auto">
+     <header class="container mx-auto">
         <nav>
         <div class="navbar bg-base-100 shadow-sm">
             <div class="flex-1">
@@ -40,7 +40,7 @@
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box shadow">
                     <li><a href="#">Features</a></li>
                     <li>
                         <a href="#">Demo</a>
@@ -57,28 +57,57 @@
 
     <!-- hero section start -->
      <section id="hero_section">
-        <div class="md:container mx-auto">
+        <div class="container mx-auto lg:mt-15 sm:mt-13">
             <!-- hero info -->
-            <div class="sm:flex">
-                <div>
+            <div class="grid lg:grid-cols-2 gap-4 sm:grid-cols-1">
+                <div id="hero_info" class="text-center">
                     <span>Revolutionize Your</span><br> 
                     <span>Website</span>
-                    <span>with Atom</span>
+                    <span style="color: rgba(120, 86, 255, 1);">with Atom</span>
                 </div>
                 <div>
-                    <p>A hyper-interactive, light-mode SaaS and AI template designed for maximum engagement.</p>
-                    <button>Explore free template</button>
+                    <p class="mt-10 text-2xl">A hyper-interactive, light-mode SaaS and AI template designed for maximum engagement.</p>
+                    <button class="hero_info_btn">Explore free template</button>
                 </div>
             </div>
-            <div>
-                <img src="./assets/img/Frame 7.png" alt="">
-                <img src="./assets/img/Ellipse 6.png" alt="">
-                <img src="./assets/img/Subtract.png" alt="">
-                <img src="./assets/img/Union.png" alt="">
-            </div>
             <!-- hero card -->
+            <div class="grid grid-cols-4 gap-4 mt-25 sm:mt-15 flex justify-center">
+                <div class="block m-auto">
+                    <img src="./assets/img/Frame 7.png" alt="">
+                </div>
+                <div class="block m-auto ">
+                    <img class="ml-10" src="./assets/img/Ellipse 6.png" alt="">
+                </div>
+                <div class="block m-auto">
+                    <img src="./assets/img/Subtract.png" alt="">
+                </div>
+                <div class="block m-auto">
+                    <img src="./assets/img/Union.png" alt="">
+                </div>
+            </div>
         </div>
      </section>
     <!-- hero section end -->
+
+    <!-- offers section start -->
+     <section id="offers_section">
+        <div class="container mx-auto">
+            <h1>
+                <span>What we</span>
+                <span> Offer?</span>
+            </h1>
+            <div id="offers_card">
+                <div>
+                    <span class="countdown font-mono text-6xl">
+                        <span style="--value:25;" aria-live="polite" aria-label="25">25</span>
+                    </span>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+     </section>
+    <!-- offers section end -->
 </body>
 </html>

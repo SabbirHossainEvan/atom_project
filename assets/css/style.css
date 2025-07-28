@@ -1,0 +1,24 @@
+/* <!-- hero section start --> */
+#hero_info span{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.hero_info_btn {
+    padding: 18px 40px;
+    background-color: rgba(120, 86, 255, 1);
+    color: white;
+    border-radius: 18px;
+    font-size: 20px;
+    margin-top: 30px;
+    transition: 1s;
+    padding-top: 12px;
+}
+
+.hero_info_btn:hover {
+    background-color: var(--sky-color);
+    box-shadow: 0 0 2px rgba(120, 86, 255, 1), 0 0 10px rgba(120, 86, 255, 1), 0 0 25px rgba(120, 86, 255, 1), 0 0 50px rgba(120, 86, 255, 1), 0 0 150px rgba(120, 86, 255, 1);
+    color: var(--white-color);
+    transition: 3s;
+}
+/* <!-- hero section end --> */
