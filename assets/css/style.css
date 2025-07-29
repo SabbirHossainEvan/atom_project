@@ -22,3 +22,39 @@
     transition: 3s;
 }
 /* <!-- hero section end --> */
+
+/* <!-- offers section start --> */
+#offer_count {
+    background: rgba(27, 11, 59, 1);
+    width: 424px;
+    height: 400px;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+#offer_count span {
+    background: linear-gradient(90deg, #E1D7FD -5.56%, #7856FF 109.09%);
+    font-size: 80px;
+      font-weight: bold;
+      background-clip: text;
+      color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+#offer_count h2 {
+    color: #E1D7FD;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#offer_count p {
+    color: #E1D7FD;
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* <!-- offers section end --> */
