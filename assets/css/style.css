@@ -1,8 +1,4 @@
 /* <!-- hero section start --> */
-#hero_info span{
-    font-size: 70px;
-    font-weight: 600;
-}
 
 .hero_info_btn {
     padding: 18px 40px;
@@ -35,9 +31,9 @@
 #offer_count span {
     background: linear-gradient(90deg, #E1D7FD -5.56%, #7856FF 109.09%);
     font-size: 80px;
-      font-weight: bold;
-      background-clip: text;
-      color: transparent;
+    font-weight: bold;
+    background-clip: text;
+    color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,5 +52,31 @@
     color: #E1D7FD;
     font-size: 20px;
     margin-top: 10px;
+}
+
+#offer_card_icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    angle: 0 deg;
+    opacity: 1;
+    top: 18.41px;
+    left: 296.93px;
+    background: rgba(232, 221, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+
+}
+
+#offer_card_icon img{
+    width: 60px;
+    height: 60px;
+    angle: 0 deg;
+    opacity: 1;
+    top: 39.68px;
+    left: 318.5px;
+
 }
 /* <!-- offers section end --> */

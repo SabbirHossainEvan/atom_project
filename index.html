@@ -11,11 +11,14 @@
      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- daisy ui link -->
+     <!-- font link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- font link -->
      
 </head>
 <body>
     <!-- navigation section start -->
-     <header class="container mx-auto">
+     <header class="container  mx-auto">
         <nav>
         <div class="navbar bg-base-100 shadow-sm">
             <div class="flex-1">
@@ -57,32 +60,31 @@
 
     <!-- hero section start -->
      <section id="hero_section">
-        <div class="container mx-auto lg:mt-15 sm:mt-13">
+        <div class="container mx-auto mt-13 p-6 md:p-0 md:mt-23">
             <!-- hero info -->
-            <div class="grid lg:grid-cols-2 gap-4 sm:grid-cols-1">
-                <div id="hero_info" class="text-center">
-                    <span>Revolutionize Your</span><br> 
-                    <span>Website</span>
-                    <span style="color: rgba(120, 86, 255, 1);">with Atom</span>
+            <div class="grid grid-cols-1 gap-2 md:grid-cols-2">
+                <div id="hero_info" class="">
+                    <span class="md:text-6xl md:font-medium text-5xl font-medium">Revolutionize Your Website</span><br> 
+                    <span style="color: rgba(120, 86, 255, 1); margin-top: 10px;" class="md:text-6xl md:font-medium text-5xl font-medium">with Atom</span>
                 </div>
                 <div>
-                    <p class="mt-10 text-2xl">A hyper-interactive, light-mode SaaS and AI template designed for maximum engagement.</p>
+                    <p class="mt-4 text-xl font-medium md:text-1xl md:font-medium md:mt-5">A hyper-interactive, light-mode SaaS and AI template designed for maximum engagement.</p>
                     <button class="hero_info_btn">Explore free template</button>
                 </div>
             </div>
             <!-- hero card -->
-            <div class="grid grid-cols-4 gap-4 mt-25 sm:mt-15 flex justify-center">
+            <div class="grid grid-cols-2 gap-0 mt-15 justify-between md:grid-cols-4 md:gap-0 md:mt-20 md:justify-between">
                 <div class="block m-auto">
-                    <img src="./assets/img/Frame 7.png" alt="">
-                </div>
-                <div class="block m-auto ">
-                    <img class="ml-10" src="./assets/img/Ellipse 6.png" alt="">
+                    <img src="./assets/img/Frame 7.png" alt="" class="w-lg md:w-full">
                 </div>
                 <div class="block m-auto">
-                    <img src="./assets/img/Subtract.png" alt="">
+                    <img src="./assets/img/Ellipse 6.png" alt="" class="w-33 md:w-60 ml-0 md:ml-20">
                 </div>
                 <div class="block m-auto">
-                    <img src="./assets/img/Union.png" alt="">
+                    <img src="./assets/img/Subtract.png" alt="" class="w-33 md:w-full">
+                </div>
+                <div class="block m-auto">
+                    <img src="./assets/img/Union.png" alt="" class="w-full md:w-full">
                 </div>
             </div>
         </div>
@@ -93,42 +95,44 @@
 
      <section id="offers_section" style="background: rgba(245, 242, 242, 1); border-radius: 30px; padding: 10px; margin-top: 30px;">
         <div class="container mx-auto mt-10">
-            <h1 class="text-6xl font-medium">
+            <h1 class="text-5xl font-medium md:text-6xl md:font-medium">
                 <span>What we</span>
                 <span style="color: rgba(120, 86, 255, 1);"> Offer?</span>
             </h1>
             <div id="offers_card" class="grid grid-cols-3 gap-4 mt-15">
-                <!-- offers cards -->
+                <!-- offer card -->
                 <div id="offer_count" class="...">
                     <span>25M</span>
                     <h2>Speed</h2>
                     <p>A hyper-interactive, dark-mode SaaS and AI template designed for maximum engagement.</p>
                 </div>
-                <!-- offers cards -->
+                <!-- offer card -->
                 <div  class="col-span-2 ... bg-white rounded-4xl p-10">
                     <h2 class="text-4xl font-medium">Big offers</h2>
                     <p class="text-2xl pt-8">A hyper-interactive, dark-mode SaaS <br>and AI template designed for maximum <br>engagement.</p>
                 </div>
-                <!-- offers cards -->
+                <!-- offer card -->
                 <div class="col-span-2 ... bg-white rounded-4xl p-10">
-                    <div id="offers_img">
+                    <div id="offers_img" class="flex ml-60px md:ml-90">
                         <img src="./assets/img/Rectangle 34624472.png" alt="">
-                        <img src="./assets/img/Arrow up-right.png" alt="">
+                        <div id="offer_card_icon">
+                            <img src="./assets/img/Arrow up-right.png" alt="">
+                        </div>
                     </div>
                     <div id="offers_info">
-                        <h2>Big offers</h2>
-                        <p>A hyper-interactive, dark-mode SaaS and AI template designed for maximum engagement.</p>
+                        <h2 class="text-4xl font-medium md:text-4xl md:font-medium">Big offers</h2>
+                        <p class="text-2xl pt-5 md:text-2xl md:pt-5">A hyper-interactive, dark-mode SaaS and AI <br>template designed for maximum engagement.</p>
                     </div>
                 </div>
-                <!-- offers cards -->
-                <div class="...">
-                    <div id="offers_ai">
-                        <div class="offer_ai_left">
-                            <h4>More 10k+</h4>
-                            <div class="offer_img_group">
+                <!-- offer card -->
+                <div class="... p-10" style="background: rgba(232, 221, 255, 1); border-radius: 30px;">
+                    <div id="offers_ai" class="flex bg-white rounded-lg p-3 mt-10 justify-between">
+                        <div class="">
+                            <h4 class="ml-3">More 10k+</h4>
+                            <div class="flex mt-2 ml-3 ">
                                 <img src="./assets/img/Ellipse 1775.png" alt="">
-                                <img src="./assets/img/Ellipse 1776.png" alt="">
-                                <img src="./assets/img/Ellipse 1777.png" alt="">
+                                <img src="./assets/img/Ellipse 1776.png" alt="" style="margin-left: -15px;">
+                                <img src="./assets/img/Ellipse 1777.png" alt="" style="margin-left: -15px;">
                             </div>
                         </div>
                         <div class="offer_ai_right">
@@ -136,7 +140,7 @@
                             <p>Join our AI community</p>
                         </div>
                     </div>
-                    <div id="offers_ai_card">
+                    <div id="offers_ai_card" class="mt-10 ml-20">
                         <img src="./assets/img/Group 1171276511.png" alt="">
                     </div>
                 </div>
@@ -147,9 +151,10 @@
     <!-- offers section end -->
      
     <!-- video section start -->
-     <section id="video_section" style="background-color: rgba(120, 86, 255, 1); border-radius: 40px; padding: 50px; margin-top: 80px;">
+
+     <!-- <section id="video_section" style="background-color: rgba(120, 86, 255, 1); border-radius: 40px; padding: 50px; margin-top: 80px;">
         <div class="container mx-auto flex justify-between items-center mt-5 mb-5 text-white">
-            <!-- video info -->
+
             <div>
                 <span class="text-2xl font-medium">Video Demo</span>
                 <h2 class=" text-6xl font-medium" style="line-height: 5rem;">Seamlessly Turn Your Vision Into Reality</h2>
@@ -168,12 +173,13 @@
                     Deliver an optimized, responsive website to your audience with ease.
                 </p>
             </div>
-            <!-- video vdo -->
+
             <div>
                 <iframe width="560" height="450" src="https://www.youtube.com/embed/oylirMJXN08?si=GmOFMDcNVHXN4hhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 30px;"></iframe>
             </div>
         </div>
-     </section>
+     </section> -->
+
     <!-- video section end -->
 
     <!-- testimonials section start -->
